@@ -1,7 +1,7 @@
 {
   "name": "salamander",
   "version": "0.1.0",
-  "homepage": "https://marksalamander.gihub.io",
+  "homepage": "https://marksalamander.gihub.io/salamander",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
