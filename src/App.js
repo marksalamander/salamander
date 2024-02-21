@@ -6,13 +6,14 @@ import About from "./pages/about";
 function App() {
   return (
     <div className="App">
-      <HashRouter>
+      {/* <HashRouter>
           <Routes>
             <Route index element={<Homepage/>} />
             <Route path="/homepage" element={<Homepage />} />
             <Route path="/about" element={<About/>}/>
           </Routes>
-      </HashRouter>
+      </HashRouter> */}
+      <p>Hello</p>
     </div>
   );
 }
