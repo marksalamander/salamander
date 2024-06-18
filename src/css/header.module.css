@@ -1,0 +1,77 @@
+@import './root.css';
+
+header {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    background-color: var(--black);
+    box-shadow: 0 10px 30px -10px rgb(23, 26, 31);
+    backdrop-filter: blur(10px);
+    transition: var(--transition);
+    z-index: 99;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: auto;
+    padding: 0 50px;
+    background-color: var(--black);
+}
+
+.nav * {
+    height: auto;
+    width: auto;
+    font-family: "Poppins";
+    background-color: var(--black);
+}
+
+ol {
+    width: auto;
+    float: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.links {
+    width: auto;
+    margin: 0px 12px;
+    font-size: 25px;
+    transition: var(--transition);
+    color: var(--white);
+    text-decoration: none;
+}
+
+.links:hover {
+    cursor: pointer;
+    color: var(--blue);
+    transition: var(--transition);
+}
+
+.resume_pdf {
+    border: solid 1px var(--blue);
+    border-radius: 5px;
+    padding: 6px 8px;
+    color: var(--white);
+    text-decoration: none;
+    font-size: 25px;
+    margin-left: 12px;
+    font-family: "Poppins";
+    transition: var(--transition);
+}
+
+.resume_pdf:hover {
+    cursor: pointer;
+    color: var(--blue);
+    transition: var(--transition);
+    box-shadow: 3px 3px var(--blue);
+}

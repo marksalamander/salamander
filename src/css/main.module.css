@@ -1,0 +1,19 @@
+.container {
+    height: 100%;
+    width: 100%;
+    font: "Poppins";
+    color: white;
+}
+
+.main {
+    background-color: transparent;
+    margin: 0px auto;
+    width: 100%;
+    max-width: 1600px;
+    position: relative;
+}
+
+.particles {
+    z-index: -1;
+}
+

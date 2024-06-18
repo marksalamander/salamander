@@ -1,18 +1,16 @@
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 import './App.css';
-import Homepage from './pages/homepage'
-import About from "./pages/about";
+import Main from './pages/main'
 
 function App() {
   return (
     <div className="App">
-      <HashRouter>
+        <BrowserRouter>
           <Routes>
-            <Route index element={<Homepage/>} />
-            <Route path="/homepage" element={<Homepage />} />
-            <Route path="/about" element={<About/>}/>
+            <Route path="/" element={<Main/>} />
           </Routes>
-      </HashRouter>
+        </BrowserRouter>
     </div>
   );
 }

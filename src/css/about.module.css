@@ -1,0 +1,98 @@
+@import './root.css';
+
+.about {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    min-height: 45vh;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1000px;
+    padding: 100px 0;
+}
+
+.about * {
+    background-color: transparent;
+}
+
+.desc {
+    font-family: "Poppins";
+    font-size: 20px;
+    text-shadow: black 2px 2px 5px;
+}
+
+.text {
+    font-family: "Poppins";
+    font-size: 20px;
+    text-shadow: black 2px 2px 5px;
+    width: max-content;
+    margin: 0;
+}
+
+.title {
+    margin-top: 50px;
+    font-size: 25px;
+    width: max-content;
+    text-shadow: black 1px 1px 5px;
+    position: relative;
+}
+
+.title:after{
+    content: "";
+    position: absolute;
+    left:0;
+    bottom: -5px;
+    height: 3px;
+    width: 50%;
+    background-color: white;
+}
+
+.edu {
+    margin-bottom: 25px;
+}
+
+.college {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, max-content);
+    justify-content: space-around;
+    align-items: flex-end;
+    row-gap: 50px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.skill {
+    display: grid;
+    place-items: center;
+    transition: var(--transition);
+}
+
+.skill:hover {
+    transform: translateY(-0.35rem) ;
+}
+
+.skill_img {
+    height: 50px;
+    width: 50px;
+}
+
+.skill_name {
+    font-family: "Poppins";
+    font-size: 20px;
+    width: max-content;
+}
+
+.description {
+    font-size: 25px;
+    text-shadow: black 1px 1px 3px;
+    margin-top: 20px;
+}
