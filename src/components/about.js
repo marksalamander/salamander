@@ -51,42 +51,42 @@ export default function About() {
 
             <div className={a.container}>
                 <div className={a.skill}>
-                    <img src="../svg/python-5.svg" className={a.skill_img} alt=""></img>
+                    <img src={`${process.env.PUBLIC_URL}/svg/python-5.svg`} className={a.skill_img} alt="Python"></img>
                     <span className={a.skill_name}>Python</span>
                 </div>
 
                 <div className={a.skill}>
-                    <img src="../svg/c.svg" className={a.skill_img} alt=""></img>
+                    <img src={`${process.env.PUBLIC_URL}/svg/c.svg`} className={a.skill_img} alt="C++"></img>
                     <span className={a.skill_name}>C++</span>
                 </div>
 
                 <div className={a.skill}>
-                    <img src="../svg/java-4.svg" className={a.skill_img} alt=""></img>
+                    <img src={`${process.env.PUBLIC_URL}/svg/java-4.svg`} className={a.skill_img} alt="Java"></img>
                     <span className={a.skill_name}>Java</span>
                 </div>
                 
                 <div className={a.skill}>
-                    <img src="../svg/git.svg" className={a.skill_img} alt=""></img>
+                    <img src={`${process.env.PUBLIC_URL}/svg/git.svg`} className={a.skill_img} alt="Git"></img>
                     <span className={a.skill_name}>Git</span>
                 </div>
 
                 <div className={a.skill}>
-                    <img src="../svg/kotlin-2.svg" className={a.skill_img} alt=""></img>
+                    <img src={`${process.env.PUBLIC_URL}/svg/kotlin-2.svg`} className={a.skill_img} alt="Kotlin"></img>
                     <span className={a.skill_name}>Kotlin</span>
                 </div>
 
                 <div className={a.skill}>
-                    <img src="../svg/react-2.svg" className={a.skill_img} alt=""></img>
+                    <img src={`${process.env.PUBLIC_URL}/svg/react-2.svg`} className={a.skill_img} alt="React"></img>
                     <span className={a.skill_name}>React</span>
                 </div>
 
                 <div className={a.skill}>
-                    <img src="../svg/nodejs-3.svg" className={a.skill_img} alt=""></img>
+                    <img src={`${process.env.PUBLIC_URL}/svg/nodejs-3.svg`} className={a.skill_img} alt="Node.js"></img>
                     <span className={a.skill_name}>Node.js</span>
                 </div>
 
                 <div className={a.skill}>
-                    <img src="../svg/logo-javascript.svg" className={a.skill_img} alt=""></img>
+                    <img src={`${process.env.PUBLIC_URL}/svg/logo-javascript.svg`} className={a.skill_img} alt="JavaScript"></img>
                     <span className={a.skill_name}>JavaScript</span>
                 </div>
             </div>
