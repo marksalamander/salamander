@@ -7,13 +7,13 @@ export default function Home() {
     return(
         <section id="home" className={h.home}>
             <FadeIn>
-                <div>
+                <div className = {h.text}>
                     <h1>Hi, my name is</h1>
                 </div>
-                <div>
+                <div className = {h.text}>
                     <h2>Mark Alexander</h2>
                 </div>
-                <div>
+                <div className = {h.text}>
                     <p>I am a computer science student at Towson University. </p>
                 </div>
                 <div className={h.icons}>

@@ -27,7 +27,7 @@ export default function card({name, img, itemNo, link, desc}) {
                 <div className={p.desc_container}>
                     <ParentWithChildren strings={desc} />
                     <div className={p.github}>
-                        GitHub <OpenInNewIcon style={{fontSize:"20px", marginLeft:"5px"}}/>
+                        GitHub <OpenInNewIcon className={p.icon}/>
                     </div>
                 </div>
             </div>

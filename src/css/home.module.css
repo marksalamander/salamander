@@ -9,6 +9,7 @@
     width: 100%;
     max-width: 1000px;
     box-sizing: inherit;
+    padding: 0% 2%;
 }
 
 .home * {
@@ -41,7 +42,7 @@ h2 {
 p {
     font-size: 30px;
     margin-bottom: 16px;
-    width: 700px;
+    width: 100%;
     font-family: "Poppins";
 }
 
