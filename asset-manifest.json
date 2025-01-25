@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/salamander/static/css/main.bd3133e8.css",
-    "main.js": "/salamander/static/js/main.bddc370c.js",
+    "main.js": "/salamander/static/js/main.b0badd7a.js",
     "static/js/453.2e65c22f.chunk.js": "/salamander/static/js/453.2e65c22f.chunk.js",
     "static/media/planner.bmp": "/salamander/static/media/planner.0d8396b8522683c21556.bmp",
     "static/media/games.jpg": "/salamander/static/media/games.a07ad74221b2488f2af9.jpg",
@@ -9,11 +9,11 @@
     "static/media/Resume.pdf": "/salamander/static/media/Resume.70c0a3394b8349b2596b.pdf",
     "index.html": "/salamander/index.html",
     "main.bd3133e8.css.map": "/salamander/static/css/main.bd3133e8.css.map",
-    "main.bddc370c.js.map": "/salamander/static/js/main.bddc370c.js.map",
+    "main.b0badd7a.js.map": "/salamander/static/js/main.b0badd7a.js.map",
     "453.2e65c22f.chunk.js.map": "/salamander/static/js/453.2e65c22f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bd3133e8.css",
-    "static/js/main.bddc370c.js"
+    "static/js/main.b0badd7a.js"
   ]
 }
