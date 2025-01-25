@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/salamander/static/css/main.390212a8.css",
-    "main.js": "/salamander/static/js/main.d872ee07.js",
+    "main.css": "/salamander/static/css/main.b685af56.css",
+    "main.js": "/salamander/static/js/main.bbcdd8cc.js",
     "static/js/453.2e65c22f.chunk.js": "/salamander/static/js/453.2e65c22f.chunk.js",
     "static/media/planner.bmp": "/salamander/static/media/planner.0d8396b8522683c21556.bmp",
     "static/media/games.jpg": "/salamander/static/media/games.a07ad74221b2488f2af9.jpg",
     "static/media/snake.bmp": "/salamander/static/media/snake.568e11036a521a4b4572.bmp",
     "static/media/Resume.pdf": "/salamander/static/media/Resume.70c0a3394b8349b2596b.pdf",
     "index.html": "/salamander/index.html",
-    "main.390212a8.css.map": "/salamander/static/css/main.390212a8.css.map",
-    "main.d872ee07.js.map": "/salamander/static/js/main.d872ee07.js.map",
+    "main.b685af56.css.map": "/salamander/static/css/main.b685af56.css.map",
+    "main.bbcdd8cc.js.map": "/salamander/static/js/main.bbcdd8cc.js.map",
     "453.2e65c22f.chunk.js.map": "/salamander/static/js/453.2e65c22f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.390212a8.css",
-    "static/js/main.d872ee07.js"
+    "static/css/main.b685af56.css",
+    "static/js/main.bbcdd8cc.js"
   ]
 }
