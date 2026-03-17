@@ -10,7 +10,10 @@ export default function About() {
             </h1>
             <div className={a.description}>
                 <p className={a.desc}>
-                    Hello, my name is Mark Alexander. I am a recent Towson University graduate, passionate about learning new things. I am interested in all things programming, from web development to A.I.
+                    I’m a recent Computer Science graduate who enjoys learning, building, and exploring new ideas. I’ve worked on a range of projects, from web and mobile apps to lower-level system, which has helped me become adaptable and comfortable picking up new tools and technologies.
+                </p>
+                <p className={a.desc}>
+                    I’m especially drawn to new challenges and opportunities to grow, and I’m excited to start my career contributing to meaningful work while continuing to learn as much as I can.
                 </p>
 
                 <h2 className={a.title}>

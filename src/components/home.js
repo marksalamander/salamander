@@ -14,7 +14,7 @@ export default function Home() {
                     <h2>Mark Alexander</h2>
                 </div>
                 <div className = {h.text}>
-                    <p>I am a computer science student at Towson University. </p>
+                    <p>Towson University Alumnus</p>
                 </div>
                 <div className={h.icons}>
                     <a className={h.icons_link} href ="https://github.com/marksalamander" target="_blank" rel="noreferrer">

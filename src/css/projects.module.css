@@ -128,6 +128,18 @@
     transition: var(--transition);
 }
 
+.gallery_item_4 {
+    filter: blur(4px);
+    left: 85%;
+    opacity: 0.8;
+    transform: translateX(-50%);
+}
+
+.gallery_item_4:hover {
+    filter:blur(0px);
+    transition: var(--transition);
+}
+
 .gallery_desc {
     height: 100%;
     width: 30%;

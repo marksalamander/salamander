@@ -73,7 +73,7 @@ ol {
     cursor: pointer;
     color: var(--blue);
     transition: var(--transition);
-    box-shadow: 3px 3px var(--blue);
+    box-shadow: -3px 3px var(--blue);
 }
 
 @media only screen and (max-width: 750px) {
